@@ -1,4 +1,4 @@
 function test1(a){
-     console.log('test')
+     throw new Error('Parameter is not a number!');
      return 'ok';
 }
